@@ -26,7 +26,7 @@ export default function LocationsList() {
             <LocationCard key={item.id} 
             name={item.name}
             dimension={item.dimension}
-            residents={item.residents}
+            type={item.type}
           />
           )
         }

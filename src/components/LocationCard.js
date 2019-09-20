@@ -13,12 +13,12 @@ padding: 20px 15px 0px 15px;
 margin-bottom: 30px;
 `
 
-export default function LocationCard({ name, dimension, residents }) {
+export default function LocationCard({ name, dimension, type }) {
   return (
     <LocalCard>
-      <h2>{name}</h2>
-      <h3>{dimension}</h3>
-      <h3>{residents}</h3>
+      <h2>Name: {name}</h2>
+      <h3>Dimension: {dimension}</h3>
+      <h3>Location Type: {type}</h3>
     </LocalCard>
   )
 }

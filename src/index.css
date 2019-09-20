@@ -47,6 +47,13 @@ header h1 {
   margin-top:5vh;
 }
 
+.location-list {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top:5vh;
+}
+
 .navmenu {
   display:flex;
   width:100%;
