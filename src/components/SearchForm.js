@@ -9,7 +9,7 @@ export default function SearchForm() {
        <input
        type="search" 
        name="search" 
-       placeholder="What do you want to search?" />
+       placeholder="Search Here" />
        <button>Search</button>
      </form>
     </section>

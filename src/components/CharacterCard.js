@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
-const Card = styled.button`
+const Card = styled.div`
 display:flex;
 background:transparent;
 width: 30%;

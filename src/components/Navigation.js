@@ -21,7 +21,8 @@ export default function Navigation() {
     return (
         <div className="navmenu">
             <Link to='/'><Button>Welcome Page</Button></Link>
-            <Link to='/characterlist'><Button>Character Page</Button></Link>
+            <Link to='/characterlist'><Button>Characters Page</Button></Link>
+            <Link to='/locationslist'><Button>Locations Page</Button></Link>
         </div>
     )
 
