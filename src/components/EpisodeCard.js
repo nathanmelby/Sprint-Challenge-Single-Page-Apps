@@ -1,7 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
 
-const LocalCard = styled.div`
+
+const EpiCard = styled.div`
 display:flex;
 background:transparent;
 width: 30%;
@@ -13,12 +14,12 @@ padding: 20px 15px 0px 15px;
 margin-bottom: 30px;
 `
 
-export default function LocationCard({ name, dimension, type }) {
+export default function EpisodeCard({ name, air_date}) {
   return (
-    <LocalCard>
+    <EpiCard>
       <h2>Name: {name}</h2>
-      <h3>Dimension: {dimension}</h3>
-      <h3>Location Type: {type}</h3>
-    </LocalCard>
+      <h3>Airdate: {air_date}</h3>
+      
+    </EpiCard>
   )
 }
