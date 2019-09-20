@@ -25,5 +25,4 @@ export default function Navigation() {
             <Link to='/locationslist'><Button>Locations Page</Button></Link>
         </div>
     )
-
 };
