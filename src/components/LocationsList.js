@@ -14,7 +14,6 @@ export default function LocationsList() {
       Axios.get('https://rickandmortyapi.com/api/location/')
         .then((res) => {
           setLocation(res.data.results);
-          console.log(res.data.results);
         })
   }, []);
 

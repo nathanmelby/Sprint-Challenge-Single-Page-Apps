@@ -14,7 +14,7 @@ margin-bottom: 30px;
 `
 
 export default function CharacterCard(props) {
-  console.log(props)
+
   return (
     <Card>
       <img className="character-image" src={props.image} alt="A Rick and Morty character" />
