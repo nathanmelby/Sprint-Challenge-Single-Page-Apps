@@ -16,6 +16,7 @@ export default function App() {
     <main>
       <Header />
       {/* <SearchForm /> */}
+
       <Navigation></Navigation>
       <Route exact path="/" component={WelcomePage}/>
       <Route exact path="/characterlist" component={CharacterList}/>

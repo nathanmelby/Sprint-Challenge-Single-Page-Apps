@@ -21,8 +21,7 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
-     <div>
-        {characters.map((item) => {
+     {characters.map((item) => {
           return (
             <CharacterCard key={item.id} 
             name={item.name} 
@@ -36,7 +35,7 @@ export default function CharacterList() {
         }
           )}
 
-      </div>
+      
     </section>
   );
 }

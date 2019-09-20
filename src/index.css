@@ -7,7 +7,7 @@ body {
 main {
   width: 85vw;
   min-height: 80vh;
-  max-width: 1024px;
+  max-width: 1440px;
   margin: 35px auto;
   background: #fff;
   padding: 15px;
@@ -27,13 +27,43 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
+  width:100vh;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
+}
+
+/* .card {
+  display:flex;
+  width: 25%;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 5px 4px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  padding: 20px 15px 0px 15px;
+  margin-bottom: 20px;
+} */
+
+.character-list {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top:5vh;
+}
+
+.navmenu {
+  display:flex;
+  width:100%;
+  justify-content: center;
+}
+
+.character-image {
+  max-width: 100%;
+  height:auto;
 }
