@@ -6,9 +6,10 @@ const Button = styled.button`
 background: transparent;
 border-radius: 3px;
 border 2px solid dodgerblue;
+font-size: 1rem;
 color: dodgerblue;
 margin: 0 1em;
-paddiong: 0.25em 1em
+padding: 0.5em 2em
 
 &:hover{
 background-color: dodgerblue;

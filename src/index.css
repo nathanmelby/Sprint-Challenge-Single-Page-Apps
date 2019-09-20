@@ -39,16 +39,6 @@ header h1 {
   text-align: center;
 }
 
-/* .card {
-  display:flex;
-  width: 25%;
-  flex-direction: column;
-  border: none;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 5px 4px rgba(0, 0, 0, 0.22);
-  border-radius: 5px;
-  padding: 20px 15px 0px 15px;
-  margin-bottom: 20px;
-} */
 
 .character-list {
   display:flex;
@@ -66,4 +56,8 @@ header h1 {
 .character-image {
   max-width: 100%;
   height:auto;
+}
+
+form {
+  width:20%;
 }

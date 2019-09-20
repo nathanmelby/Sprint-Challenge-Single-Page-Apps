@@ -10,7 +10,7 @@ border: none;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 5px 4px rgba(0, 0, 0, 0.22);
 border-radius: 5px;
 padding: 20px 15px 0px 15px;
-margin-bottom: 20px;
+margin-bottom: 30px;
 `
 
 export default function CharacterCard(props) {
