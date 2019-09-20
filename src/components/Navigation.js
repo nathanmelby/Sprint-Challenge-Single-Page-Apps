@@ -23,6 +23,7 @@ export default function Navigation() {
             <Link to='/'><Button>Welcome Page</Button></Link>
             <Link to='/characterlist'><Button>Characters Page</Button></Link>
             <Link to='/locationslist'><Button>Locations Page</Button></Link>
+            <Link to='/episodeslist'><Button>Episodes Page</Button></Link>
         </div>
     )
 };
