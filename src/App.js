@@ -16,12 +16,10 @@ export default function App() {
     <main>
       <Header />
       <SearchForm />
-
-      <Navigation></Navigation>
+      <Navigation />
       <Route exact path="/" component={WelcomePage}/>
       <Route exact path="/characterlist" component={CharacterList}/>
       <Route exact path="/locationslist" component={LocationsList}/>
-      
     </main>
   );
 }

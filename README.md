@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-side routing allows for the user to experience a "multi-page" application. The web browser is responsible for routing the to and from pages, not the server itself. React allows for components to be rendered via client side routing without having to ping far away servers. When users navigate to different pages, they arent refreshing the website. The browser routes them to pages that are rendered via the already loaded javascript. Users get the illusion of navigating to seperate pages, all without getting the "white-flash" from a true page refresh. This can lead to a faster, snappier, and more enjoyable experience for the user.
 
 ## Project Set Up
 

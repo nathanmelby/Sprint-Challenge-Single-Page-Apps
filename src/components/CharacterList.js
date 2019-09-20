@@ -4,12 +4,11 @@ import Axios from "axios";
 import CharacterCard from "./CharacterCard";
 
 export default function CharacterList() {
-  // TODO: Add useState to track data from useEffect
 
   const [ characters, setCharacters ] = useState([]);
 
   useEffect(() => {
-    // TODO: Add API Request here - must run in `useEffect`
+
     //  Important: verify the 2nd `useEffect` parameter: the dependancies array!
 
       Axios.get('https://rickandmortyapi.com/api/character/')
@@ -23,7 +22,8 @@ export default function CharacterList() {
     <section className="character-list">
      {characters.map((item) => {
           return (
-            <CharacterCard key={item.id} 
+            <CharacterCard 
+            key={item.id} 
             name={item.name} 
             image={item.image}
             species={item.species}
@@ -33,9 +33,7 @@ export default function CharacterList() {
           />
           )
         }
-          )}
-
-      
+          )} 
     </section>
   );
 }
